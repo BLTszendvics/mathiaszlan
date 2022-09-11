@@ -7,6 +7,7 @@
     && isset($_POST['csapattag2']) 
     && isset($_POST['csapattag3']) 
     && isset($_POST['csapattag4']) 
+    && isset($_POST['csapattag5']) 
     && isset($_POST['jatek']))
     {
         include('Model/Csapat.php');
@@ -16,7 +17,8 @@
                             array(
                                 $_POST['csapattag2'],
                                 $_POST['csapattag3'],
-                                $_POST['csapattag4']
+                                $_POST['csapattag4'],
+                                $_POST['csapattag5']
                             ),
                             $_POST['jatek']);
         
