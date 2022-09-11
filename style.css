@@ -39,7 +39,7 @@ img {
 }
 
 .nav-link {
-    color: #9D00FF !important;
+    color: /*#9D00FF*/ #ff0000 !important;
 }
 
 .fa {
