@@ -414,9 +414,6 @@
       padding-left: 0px;
     }
   
-    .navbar-expand-md .navbar-nav .nav-link {
-
-    }
   }
   
   @media (min-width: 1200px) {
@@ -457,19 +454,15 @@
   @media (max-width: 767px) {
   
     .navbar-nav {
-      max-width: 200px;
+      
       text-align: right;
     }
   
-    .navbar-collapse {
-      background-color: rgb(255, 255, 255);
-      padding: 10px;
-      border-radius: 3px;
-    }
+
   
     .navbar-collapse .nav-link {
       color: #707070;
-      padding-right: 20px;
+      
     }
   }
   
