@@ -1,0 +1,156 @@
+.ki1 {
+
+    text-align: center;
+
+
+}
+
+.ki2 {
+
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'neo-latina';
+    src: url(font/neo-latina-demo-FFP.ttf);
+}
+
+body {
+
+    background: rgb(43, 55, 67);
+    background: linear-gradient(90deg, rgba(43, 55, 67, 1) 40%, rgba(30, 36, 46, 1) 71%);
+    color: white;
+
+}
+
+.navbar,
+.bg-footer {
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+h3,
+h1 {
+    font-family: 'neo-latina';
+}
+
+img {
+    width: 100%;
+}
+
+.nav-link {
+    color: #9D00FF !important;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-twitch {
+    background-color: #9146ff;
+    color: black;
+}
+
+a:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.mlcim {
+
+    font-family: 'neo-latina';
+    font-size: 30px;
+
+
+}
+
+.darkerr {
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+video {
+
+    width: 100%;
+    height: auto;
+
+}
+
+.aas {
+
+
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.exh3 {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-link {
+
+        margin-left: 100px;
+        text-align: right;
+
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .aas {
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}

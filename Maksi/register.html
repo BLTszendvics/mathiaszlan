@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../sliders/foslider.css">
+    <title>MathiászLAN</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/keszlogo.png" />
+    <script src="js.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark">
+
+            <a class="navbar-brand" href="../fooldal.html">
+                <img src="../images/keszlogo.png" alt="logo" style="width:65px;">
+            </a>
+            <a class="nav-link mlcim" href="../fooldal.html">
+
+                MathiászLAN
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery.html">Galéria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../szervezok.html">Szervezők & Támogatók</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jelentkezés</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="text-center">MathiászLAN Jelentkezés</h1>
+            <form action="register.php" method="POST">
+                <div class="row">
+                    <div class="form-group col-sm-12 col-md-12 col-xl-12">
+                        <label>Csapatnév:</label>
+                        <input name="csapatNev" type="text" class="form-control" placeholder="" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-sm-12 col-md-12 col-xl-12">
+                        <label for="exampleInputEmail1">Csapatkapitány email címe:</label>
+                        <input name="cskEmail" type="email" class="form-control" placeholder="csk@pelda.com" required />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                        <label>Csapatkapitány neve:</label>
+                        <input name="cskNev" class="form-control" type="text" placeholder="" required />
+                    </div>
+                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                        <label>2. csapattag neve:</label>
+                        <input name="csapattag2" class="form-control" type="text" placeholder="Csapattag #2" required />
+                    </div>
+                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                        <label>3. csapattag neve:</label>
+                        <input name="csapattag3" class="form-control" type="text" placeholder="Csapattag #3" required />
+                    </div>
+                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                        <label>4. csapattag neve:</label>
+                        <input name="csapattag4" class="form-control" type="text" placeholder="Csapattag #4" required />
+                    </div>
+                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                        <label>5. csapattag neve:</label>
+                        <input name="csapattag5" class="form-control" type="text" placeholder="Csapattag #5" required />
+                    </div>
+                </div>
+                <div class="row aas">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>Játékok:</label>
+                            <select name="jatek" class="form-control" id="jatek" required>
+                                <option value="csgo">CS:GO</option>
+                                <option value="lol">LOL</option>
+                                <option value="fifa">FIFA</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-success" value="Mehet »">
+                </div>
+
+            </form>
+        </div>
+    </main>
+    <footer class="bg-footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="p-2 text-center">
+                        <h3>Elérhetőségek:</h3>
+                        <a href="https://www.facebook.com/mathiaszlan" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/mathiaszlan/" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://www.twitch.tv/mathiaszlan2021" target="_blank"><i class="fa fa-twitch"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
