@@ -9,11 +9,18 @@ function kiir() {
     let time = d.getTime();
 
 
-    let monthV = 10;
+    /*let monthV = 10;
     let dayV = 13;
     let hourV = 20;
     let minV = 0;
-    let secV = 0;
+    let secV = 0;*/
+
+    let monthV = 9;
+    let dayV = 12;
+    let hourV = 21;
+    let minV = 8;
+    let secV = 20;
+
 
     for (let i = 0; i < monthV; i++) {
 
@@ -61,28 +68,39 @@ function kiir() {
 
     let dayF = allF;
     
-    if (secF < 10) {
+    if (dayF <= 0 && hourF <= 0 && minF <= 0 && secF <= 0) {
 
-        secF = "0" + secF;
-
-    }
-    if (minF < 10) {
-
-        minF = "0" + minF;
+        document.getElementById("timeOutP").innerHTML = "A rendezvény elkezdődött, találkozunk a rendezvényen!";
 
     }
-    if (hourF < 10) {
+    else {
 
-        hourF = "0" + hourF;
+        if (secF < 10) {
+
+            secF = "0" + secF;
+    
+        }
+        if (minF < 10) {
+    
+            minF = "0" + minF;
+    
+        }
+        if (hourF < 10) {
+    
+            hourF = "0" + hourF;
+    
+        }
+        if (dayF < 10) {
+    
+            dayF = "0" + dayF;
+    
+        }
+    
+        document.getElementById("timeOutP").innerHTML = (dayF + ":" + hourF + ":" + minF + ":" + secF);
 
     }
-    if (dayF < 10) {
 
-        dayF = "0" + dayF;
 
-    }
-
-    document.getElementById("timeOutP").innerHTML = (dayF + ":" + hourF + ":" + minF + ":" + secF);
 }
 kiir();
 setInterval(() => {
