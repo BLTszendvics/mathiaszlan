@@ -76,19 +76,19 @@
                         <label>Csapatkapitány neve:</label>
                         <input name="cskNev" class="form-control" type="text" placeholder="Csapattag #1" required />
                     </div>
-                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                    <div class="tbip form-group col-sm-12 col-md-6 col-xl-6">
                         <label>2. csapattag neve:</label>
                         <input name="csapattag2" class="form-control" type="text" placeholder="Csapattag #2" required />
                     </div>
-                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                    <div class="tbip form-group col-sm-12 col-md-6 col-xl-6">
                         <label>3. csapattag neve:</label>
                         <input name="csapattag3" class="form-control" type="text" placeholder="Csapattag #3" required />
                     </div>
-                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                    <div class="tbip form-group col-sm-12 col-md-6 col-xl-6">
                         <label>4. csapattag neve:</label>
                         <input name="csapattag4" class="form-control" type="text" placeholder="Csapattag #4" required />
                     </div>
-                    <div class="form-group col-sm-12 col-md-6 col-xl-6">
+                    <div class="tbip form-group col-sm-12 col-md-6 col-xl-6">
                         <label>5. csapattag neve:</label>
                         <input name="csapattag5" class="form-control" type="text" placeholder="Csapattag #5" required />
                     </div>
@@ -97,7 +97,7 @@
                     <div class="col-12">
                         <div class="form-group">
                             <label>Játék:</label>
-                            <select name="jatek" class="form-control" id="jatek" required>
+                            <select name="jatek" class="form-control" id="jatek" required onchange="changed()">
                                 <option value="csgo">CS:GO</option>
                                 <option value="lol">LOL</option>
                                 <option value="fifa">FIFA</option>
