@@ -14,6 +14,9 @@ function changed() {
             TextElements[i].style.display = "none";
         }
 
+        document.getElementById("peter").style.position = "absolute";
+        document.getElementById("peter").style.bottom = "0px";
+
     }
     else {
 
@@ -23,6 +26,9 @@ function changed() {
 
             TextElements[i].style.display = "block";
         }
+
+        document.getElementById("peter").style.position = "relative";
+        document.getElementById("peter").style.bottom = "0px";
 
     }
 
