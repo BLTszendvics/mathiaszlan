@@ -11,6 +11,16 @@
 
 }
 
+.fff {
+
+    padding: 0.5%;
+    background-color: rgba(0, 0, 0, 0.48);
+
+}
+.fff2 {
+
+    margin-right: 0%;
+}
 
 .cimcim {
 
@@ -31,11 +41,17 @@ body {
     font-family: 'neo-latina';
     src: url(font/neo-latina.ttf);
 }
-
+    
 
 .navbar,
 .bg-footer {
     background-color: rgba(0, 0, 0, 0.48);
+}
+
+.navbar-andras {
+
+    background: none;
+
 }
 
 h3,
@@ -245,4 +261,15 @@ figcaption {
 
     padding: 6%;
 
+}
+.sss {
+    padding: 8px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.ddd {
+    margin-top: -1%;
 }
