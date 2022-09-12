@@ -11,18 +11,27 @@
 
 }
 
-@font-face {
-    font-family: 'neo-latina';
-    src: url(font/neo-latina.ttf);
+
+.cimcim {
+
+    font-weight: bolder;
+    font-size: 60px;
+    font-style: italic;
+
 }
 
 body {
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(43, 55, 67);
     background: linear-gradient(90deg, rgba(43, 55, 67, 1) 40%, rgba(30, 36, 46, 1) 71%);
     color: white;
 
 }
+@font-face {
+    font-family: 'neo-latina';
+    src: url(font/neo-latina.ttf);
+}
+
 
 .navbar,
 .bg-footer {
@@ -39,7 +48,10 @@ img {
 }
 
 .nav-link {
-    color: /*#9D00FF*/ #ff0000 !important;
+    color: /*#9D00FF*/ hsl(0, 100%, 50%) !important;
+    font-family: neo-latina;
+    src: url(font/neo-latina.ttf);
+    font-weight: bolder;
 }
 
 .fa {
@@ -50,7 +62,11 @@ img {
     text-decoration: none;
 
 }
+h3 {
 
+    font-size: 35px;
+
+}
 .fa:hover {
     opacity: 0.7;
 }
@@ -120,6 +136,7 @@ video {
     width: 30%;
     margin-left: 0;
     text-align: center;
+    font-weight: bolder;
 }
 .exh3 {
 
@@ -127,16 +144,21 @@ video {
 
 }
 
+
+.aaa {
+
+    font-size: 17px;
+
+}
+
 @media screen and (max-width: 768px) {
 
     .nav-link {
 
-        margin-left: 100px;
-        text-align: right;
+        text-align: right;        
 
     }
 }
-
 
 @media screen and (min-width: 900px) {
     footer {
@@ -144,6 +166,13 @@ video {
         bottom: 0;
         width: 100%;
     }
+
+    .aaa {
+
+        font-size: 22px !important;
+
+    }
+
 
 }
 
@@ -198,4 +227,22 @@ figcaption {
     }
 }
 
+.timecske {
 
+    text-align: center;
+    font-size: 40px;
+
+}
+.timecskep {
+
+    text-align: center;
+    font-size: 50px;
+    font-family: neo-latina;
+    src: url(font/neo-latina.ttf);
+
+}
+.timecsked {
+
+    padding: 6%;
+
+}
