@@ -25,10 +25,37 @@
 .cimcim {
 
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 10px;
     font-style: italic;
 
 }
+
+@media screen and (min-width: 300px) {
+    .cimcim {
+
+        font-size: 20px;
+        margin-bottom: -4%;
+
+    }
+}
+@media screen and (min-width: 550px) {
+    .cimcim {
+
+        font-size: 30px;
+        margin-bottom: -2%;
+
+    }
+}
+@media screen and (min-width: 900px) {
+    .cimcim {
+
+        font-size: 50px;
+        margin-bottom: -0.5%;
+
+    }
+}
+
+
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -252,7 +279,7 @@ figcaption {
 .timecskep {
 
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     font-family: neo-latina;
     src: url(font/neo-latina.ttf);
 
@@ -272,4 +299,26 @@ figcaption {
 }
 .ddd {
     margin-top: -1%;
+}
+@media screen and (min-width: 600px) {
+
+    .timecskep {
+
+        font-size: 35px;
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .timecskep {
+
+        font-size: 50px;
+
+    }
+
+
 }
