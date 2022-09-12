@@ -5,15 +5,25 @@ function changed() {
     var text = e.options[e.selectedIndex].text;
 
 
-    /*if (text == "FIFA") {
+    if (text == "FIFA") {
 
-        var elements = document.getElementsByClassName("tbip");
-        var names = '';
-        for(var i = 0; i < elements.length; i++) {
-            names += elements[i].name;
-            elements[i].getElementsByClassName("tbip")
+        var TextElements = document.getElementsByName("tbap");
+
+        for (var i = 0, max = TextElements.length; i < max; i++) {
+
+            TextElements[i].style.display = "none";
         }
 
-    }*/
+    }
+    else {
+
+        var TextElements = document.getElementsByName("tbap");
+
+        for (var i = 0, max = TextElements.length; i < max; i++) {
+
+            TextElements[i].style.display = "block";
+        }
+
+    }
 
 }
