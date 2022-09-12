@@ -137,6 +137,11 @@ h3 {
     background-color: green;
     color: black;
 }
+.fa-map-maker{
+    background-color: black;
+    color: #bb0000;
+
+}
 
 a:hover {
     color: inherit !important;
@@ -372,5 +377,39 @@ table {
 
     margin-left: auto;
     margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+    /*border-collapse: expression('separe')*/
 }
 
+.askfn {
+
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+
+@media screen and (min-width: 400px) {
+
+    .askfn {
+
+        margin-left: 7%;
+        margin-right: 7%;
+    
+    }
+
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .askfn {
+
+        margin-left: 20%;
+        margin-right: 20%;
+    
+    }
+
+
+}
