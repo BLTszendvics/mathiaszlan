@@ -322,3 +322,16 @@ figcaption {
 
 
 }
+
+.zzz {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: black;
+    background-color: black;
+    width: 100%;
+}
